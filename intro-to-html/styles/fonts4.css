@@ -1,0 +1,27 @@
+p{
+  font-family: Arial;
+  padding: 0;
+  margin: 0;
+}
+
+.camp{
+  font-weight: bold;
+}
+
+.camp2{
+  color: rgb(92, 91, 91);
+}
+
+.description{
+  width: 500px;
+  margin-top: 5px;
+  line-height: 22px;
+}
+
+.reference{
+  margin-top: 15px;
+}
+
+.chp_it{
+  color: rgb(62, 149, 255);
+}

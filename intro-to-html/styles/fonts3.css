@@ -1,0 +1,30 @@
+  p{
+    font-family: Arial;
+    padding: 0;
+    margin: 0;
+  }
+
+  .price{
+    font-size: 30px;
+  }
+
+  .usd{
+    font-size: 14px;
+    color: rgb(118, 118, 118);
+  }
+
+  .perc{
+    color: rgb(32, 120, 26);
+    font-size: 14px;
+    margin-top: 3px;
+  }
+
+  .time{
+    font-size: 14px;
+    margin-top: 5px;
+    color: rgb(117, 117, 117);
+  }
+
+  .range{
+    color: rgb(219, 5, 5);
+  }

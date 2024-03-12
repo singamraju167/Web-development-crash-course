@@ -1,0 +1,82 @@
+  p{
+    padding: 0;
+    margin: 0;
+  }
+  .tahoma-font{
+    font-family: Tahoma;
+    font-weight: bold;
+    font-size: 28px;
+  }
+
+  .deals-message{
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 32px;
+    width:450px;
+  }
+
+  .sales-message{
+    color: red;
+    font-weight: lighter;
+    font-size: 20px;
+    font-family: Arial;
+    margin-top: 5px;
+  }
+
+  .course-heading{
+    font-family: Verdana;
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  .course-tagline{
+    font-family: Verdana;
+    color: rgb(134, 133, 133);
+    margin-top: 3px;
+  }
+
+  .course-message{
+    font-family: Verdana;
+    width: 300px;
+    margin-top: 10px;
+  }
+
+  .get-started{
+    font-family: Verdana;
+    background-color: rgb(4, 123, 2);
+    color: white;
+    border: none;
+    height: 36px;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-radius: 6px;
+    margin-top: 15px;
+  }
+
+  .product-tag{
+    font-family: Arial;
+    font-size: 26px;
+    font-weight: bold;
+  }
+
+  .apple{
+    font-family: Arial;
+    font-size: 16px;
+    margin-top: 12px;
+    width: 350px;
+    text-align: center;
+  }
+  
+  .learn-more{
+    font-family: Arial;
+    font-size: 16px;
+    color: rgb(71, 71, 245);
+    margin-top: 12px;
+    width: 350px;
+    text-align: center;
+  }
+
+  .new{
+    color: orange;
+    font-family: Arial;
+  }

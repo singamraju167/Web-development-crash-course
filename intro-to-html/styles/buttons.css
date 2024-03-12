@@ -1,0 +1,194 @@
+.subscribe-button {
+  background-color: rgb(200, 0, 0);
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-right: 8px;
+  margin-left: 20px;
+  transition: opacity 0.15s;
+  vertical-align: top;
+}
+
+.subscribe-button:hover{
+  opacity: 0.8;
+}
+
+.subscribe-button:active{
+  opacity: 0.5;
+}
+
+.join-button{
+  background-color: white;
+  border-color: rgb(53, 99, 235);
+  border-style: solid;
+  border-width: 1.5px;
+  color: rgb(53, 99, 235);
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-left: 16px;
+  padding-right: 16px;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: background-color 1s,
+    color 1s;
+}
+
+.join-button:hover{
+  background-color: rgb(53, 99, 235);
+  color: white;
+}
+
+.join-button:active{
+  opacity: 0.7;
+}
+
+.tweet-button{
+  background-color: rgb(44, 160, 254);
+  color: white;
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 16px;
+  padding-right: 16px;
+  border-radius: 18px;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+  margin-left: 8px;
+  transition: box-shadow 0.2s;
+  vertical-align: top;
+}
+
+.tweet-button:hover{
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+.request-button{
+  background-color: black;
+  color: white;
+  height: 36px;
+  width: 105px;
+  font-size: 13px;
+  margin-left: 5px;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.request-button:hover{
+  opacity: 0.8;
+}
+
+.add-button{
+  background-color: rgb(255, 216, 20);
+  color: black;
+  border: none;
+  width: 170px;
+  height: 36px;
+  border-radius: 25px;
+  margin-left: 5px;
+  transition: background-color 0.2s;
+  cursor: pointer;
+}
+
+.add-button:hover{
+  background-color: rgb(237, 200, 17);
+}
+
+.sign-button{
+  background-color: rgb(46, 164, 79);
+  color: white;
+  border:none;
+  height: 36px;
+  width: 85px;
+  font-weight: bold;
+  font-size: 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: box-shadow 0.2s;
+}
+
+.sign-button:hover{
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+.get-button{
+  background-color: rgb(121, 82, 179);
+  color: white;
+  border: none;
+  font-weight: bold;
+  font-size: 13px;
+  height: 36px;
+  width: 110px;
+  border-radius: 3px;
+  margin-right: 3px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.get-button:hover{
+  background-color: rgb(111, 72, 170);
+}
+
+.download-button{
+  background-color: white;
+  color: rgb(108, 117, 125);
+  border-width: 1.3px;
+  border-radius: 3px;
+  border-color: rgb(108, 117, 125);
+  border-style: solid;
+  height: 36px;
+  width: 100px;
+  font-weight: bold;
+  font-size: 13px;
+  cursor: pointer;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.download-button:hover{
+  background-color: rgb(108, 117, 125);
+  color: white;
+}
+
+.apply-button{
+  background-color: rgb(10, 102, 194);
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+  border: none;
+  height: 36px;
+  width: 225px;
+  border-radius: 50px;
+  margin-left: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.apply-button:hover{
+  background-color: rgb(7, 81, 155);
+}
+
+.save-button{
+  background-color: white;
+  color: rgb(10, 102, 194);
+  border-color: rgb(10, 102, 194);
+  font-weight: bold;
+  font-size: 15px;
+  height: 36px;
+  width: 80px;
+  border-style: solid;
+  border-radius: 20px;
+  border-width: 1.3px;
+  margin-left: 3px;
+  cursor: pointer;
+  transition: border-width 0.1s, background-color 0.2s;
+}
+
+.save-button:hover{
+  border-width: 2px;
+  background-color: rgb(235, 243, 252);
+}
