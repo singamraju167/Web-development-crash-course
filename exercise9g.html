@@ -3,9 +3,16 @@
   <head>
     <title>Facebook Users</title>
     <style>
+      .all_users{
+        display: grid;
+        grid-template-columns: 150px 150px 150px;
+        align-items: center;
+        column-gap: 15px;
+        /* background-color: #353535; */
+      }
+
       .user_info{
         font-family: sans-serif;
-        display: inline-block;
         padding: 5px;
         margin: 0;
       }
@@ -22,7 +29,8 @@
         font-weight: bold;
         margin: 0;
         padding-top: 5px;
-        padding-left: 7px;
+        padding-left: 5px;
+        padding-bottom: 3px;
       }
 
       .no_of_friends{
@@ -42,18 +50,34 @@
         background-color: rgb(7, 105, 225);
         color: white;
         padding: 10px;
-        margin-left: 7px;
+        margin-top: 5px;
+        margin-left: 5px;
         margin-bottom: 10px;
         cursor: pointer;
         }
 
         .user_details{
           width: 150px;
+          align-items: center;
           box-shadow: 0 0 10px rgb(204, 204, 204);
           clip-path: inset(0px -10px -20px -20px);
           margin: 0;
           padding: 0;
         }
+
+        .profile_info{
+          display: grid;
+          grid-template-columns: 30px 1fr;
+          padding-left: 5px;
+          /* background-color: #353535; */
+        }
+
+       .profile_pic{
+        width: 25px;
+        height: 25px;
+        object-fit: cover;
+        border-radius: 50%;
+       }
     </style>
   </head>
   <body>
@@ -62,7 +86,14 @@
         <img class="dp" src="images/cat.jpg">
         <div class="user_details">
           <p class="username">Oliver</p>
-          <p class="no_of_friends">2 mutual friends</p>
+          <div class="profile_info">
+            <div>
+              <img class="profile_pic" src="images/cat.jpg">
+            </div>
+            <div>
+              <p class="no_of_friends">2 mutual friends</p>
+            </div>
+          </div>
           <button class="add_button">Add Friend</button>
         </div>
       </div>
@@ -71,7 +102,14 @@
         <img class="dp" src="images/cat1.jpeg">
         <div class="user_details">
           <p class="username">Mimi</p>
-          <p class="no_of_friends">3 mutual friends</p>
+          <div class="profile_info">
+            <div>
+              <img class="profile_pic" src="images/cat.jpg">
+            </div>
+            <div>
+              <p class="no_of_friends">3 mutual friends</p>
+            </div>
+          </div>
           <button class="add_button">Add Friend</button>
         </div>
       </div>
@@ -80,7 +118,14 @@
         <img class="dp" src="images/cat3.webp">
         <div class="user_details">
           <p class="username">Rex</p>
-          <p class="no_of_friends">4 mutual friends</p>
+          <div class="profile_info">
+            <div>
+              <img class="profile_pic" src="images/cat.jpg">
+            </div>
+            <div>
+              <p class="no_of_friends">4 mutual friends</p>
+            </div>
+          </div>
           <button class="add_button">Add Friend</button>
         </div>
       </div>
