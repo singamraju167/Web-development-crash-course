@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<head>
+  <title>Exercise 13g</title>
+</head>
+<style>
+  *{
+    font-family: "Roboto", Arial;
+    padding: 0;
+    margin: 0;
+  }
+
+  .main{
+    margin-top: 10px;
+    margin-left: 10px;
+    display: flex;
+  }
+
+  .user_details{
+    margin-left: 10px;
+  }
+
+  .profile_pic{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+
+  .username{
+    display: flex;
+  }
+
+  .name{
+    font-weight: bold;
+  }
+
+  .tag{
+    color: rgb(103, 102, 102);
+  }
+
+  .blog{
+    margin-top: 5px;
+    width: 350px;
+  }
+
+  .youtube_preview{
+    height: 100px;
+    display: flex;
+    border: solid;
+    border-color: rgb(211, 210, 210);
+    border-width:1px;
+    border-radius: 20px;
+    margin-top: 15px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .video_preview{
+    flex: 1;
+    background-color: rgb(211, 210, 210);
+    width: 100px;
+    height: 100px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+
+  .youtube_text{
+    margin-bottom: 2px;
+    color: gray;
+  }
+
+  .preview_text{
+    width: 220px;
+    line-height: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  
+</style>
+<body>
+  <div class="main">
+    <div class="user_profile">
+      <img class="profile_pic" src="images/cat.jpg">
+    </div>
+
+    <div class="user_details">
+      <div class="username">
+        <p class="name">supersimple.dev</p>
+        <p class="tag">@SuperSimpleDev</p>
+      </div>
+      <div class="blog">
+        <p>What is backend web development? A complete overview. New video is up!</p>
+      </div>
+
+      <div class="youtube_preview">
+        <div class="video_preview">
+
+        </div>
+        <div class="preview_text">
+          <p class="youtube_text">youtube.com</p>
+          <p class="video_title">Backend web development - a complete overview (2021)</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>

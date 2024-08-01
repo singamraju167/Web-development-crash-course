@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<head>
+  <title>Exercise 13 - Nested Flexbox</title>
+</head>
+<style>
+  p{
+    padding: 0;
+    margin: 0;
+  }
+
+  .main{
+    display: flex;
+  }
+  .e1{
+    width: 100px;
+    height: 65px;
+    background-color: lightpink;
+  }
+
+  .e2{
+    width: 200px;
+    height: 65px;
+    background-color: lightblue;
+  }
+
+  .e3{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .r2{
+    background-color: black;
+    color: white;
+  }
+</style>
+<body>
+  <div class="main">
+    <div class="e1"></div>
+    <div class="e2">
+      <p class="r1">row1</p>
+      <div class="e3">
+        <p class="r2">row2</p>
+        <p class="r2">row2</p>
+      </div>
+    </div>
+  </div>

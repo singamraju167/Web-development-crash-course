@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<head>
+  <title>Gmail iOS</title>
+</head>
+<style>
+  *{
+    font-family: "Roboto", "Arial";
+    margin: 0;
+    padding: 0;
+    line-height: 23px;
+    /* font-size: 14px; */
+  }
+
+  body{
+    background-color: rgb(255, 255, 255);
+  }
+
+  .all_users{
+    margin-top: 20px;
+    margin-left: 10px;
+    padding-bottom: 20px;
+    background-color: white;
+    padding: 10px;
+    width: 315px;
+    border: none;
+    /* border-color: rgb(211, 211, 211); */
+    border-radius: 2px;
+    box-shadow: -0.1em 0 .4em rgb(169, 166, 166);
+  }
+
+  .profile{
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 25px;
+  }
+
+  .user{
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+  }
+
+  .user-info{
+    margin-left: 10px;
+    font-size: 14px;
+  }
+
+  .mail-heading{
+    width: 200px;
+  }
+
+  .message{
+    color: gray;
+    font-size: 12px;
+  }
+
+  .all_inboxes{
+    color: gray;
+  }
+
+  .mail_time{
+    display: flex;
+    justify-content: space-between;
+    width: 260px;
+    /* background-color: gray; */
+  }
+
+  .time{
+    color: gray;
+    font-size: 12px;
+  }
+</style>
+<body>
+  <div class="all_users">
+    <p class="all_inboxes">ALL INBOXES</p>
+    <div class="user">
+      <img class="profile" src="images/cat.jpg">
+      <div class="user-info">
+        <div class="mail_time">
+          <p class="mail-heading1"><b>Chewy Promotions</b></p>
+          <p class="time">4:58 PM</p>
+        </div>
+        <p class="mail-heading2"><b>Biggest sales of the year!</b></p>
+        <p class="message">Hey there! We're writing to tell you about our...</p>
+      </div>
+    </div>
+
+    <div class="user">
+      <img class="profile" src="images/cat1.jpeg">
+      <div class="user-info">
+        <div class="mail_time">
+          <p class="mail-heading1"><b>Best Buy</b></p>
+          <p class="time">12:32 PM</p>
+        </div>
+        <p class="mail-heading2"><b>Your Best Buy eReceipt</b></p>
+        <p class="message">Thank you for shopping at Best Buy, here is...</p>
+      </div>
+    </div>
+
+    <div class="user">
+      <img class="profile" src="images/cat3.webp">
+      <div class="user-info">
+        <div class="mail_time">
+          <p class="mail-heading1"><b>Netflix</b></p>
+          <p class="time">9:00 AM</p>
+        </div>
+        <p class="mail-heading2"><b>Here's what's coming soon to Netflix</b></p>
+        <p class="message">Brand new movies and shows, old favorites...</p>
+      </div>
+    </div>
+  </div>
+</body>
