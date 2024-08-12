@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercise 14f</title>
+</head>
+
+<style>
+  *{
+    font-family: sans-serif;
+  }
+  body{
+    margin: 0;
+    padding: 0;
+  }
+
+  p{
+    padding: 0;
+    margin: 0;
+  }
+
+  .main{
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+  }
+
+  .side1{
+    display: block;
+    background-color: rgb(35, 35, 39);
+    width: 55px;
+    padding-top: 12px;
+    padding-left: 8px;
+    padding-right: 5px;
+  }
+  .user{
+    width: 45px;
+    height: 45px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 5px;
+  }
+
+  .side2{
+    padding-left: 8px;
+    padding-right: 5px;
+    background-color: #333;
+    color: white;
+    width: 140px;
+  }
+
+  .info_bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 35px;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 0;
+  }
+
+  h3{
+    margin: 0;
+    text-align: left;
+  }
+
+  h5{
+    font-size: 12px;
+  }
+
+  .info_list{
+    margin-top: 5px;
+    font-size: 14px;
+    padding-left: 5px;
+  }
+
+  .l{
+    padding-bottom: 15px;
+    color: #9a9999;
+  }
+
+  .add_btn{
+    background: none;
+    border: none;
+    font-size: 20px;
+    color: #9a9999;
+    cursor: pointer;
+  }
+</style>
+<body>
+  <div class="main">
+    <div class="side1">
+      <div><img class="user" src="images/cat.jpg"></div>
+      <div><img class="user" src="images/cat1.jpeg"></div>
+      <div><img class="user" src="images/cat3.webp"></div>
+    </div>
+    <div class="side2">
+      <div class="info_bar">
+        <h5>INFO</h5>
+        <button class="add_btn">+</button>
+      </div>
+      <div class="info_list">
+        <p class="l"># new-videos</p>
+        <p class="l"># updates</p>
+        <p class="l"># faq</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
